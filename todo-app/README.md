@@ -22,17 +22,22 @@ A fully functional, feature-rich Todo application built with React.js, featuring
 - 🌓 **Dark Mode** - Toggle between light and dark themes
 - 📈 **Task Statistics** - View total, completed, and pending tasks
 
-## 🚀 Demo
+## 🎥 Demo
 
-![Product Explorer Demo](./ezgif.com-video-to-gif-converter (3).gif)
+### Video Walkthrough
+
+<div align="center">
+  <img src="./demo/demo.gif" alt="Todo App Demo" width="100%"/>
+  <p><em>Complete feature demonstration of the Todo Application</em></p>
+</div>
 
 ## 📸 Screenshots
 
 ### Light Mode
-![Light Mode](todo-app/Screenshot (306).png)
+![Light Mode](./screenshots/light-mode.png)
 
 ### Dark Mode
-![Dark Mode](todo-app/Screenshot (305).png)
+![Dark Mode](./screenshots/dark-mode.png)
 
 ## 🛠️ Technologies Used
 
