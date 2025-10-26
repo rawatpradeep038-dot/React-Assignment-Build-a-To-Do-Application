@@ -1,0 +1,90 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.light {
+  background-color: white;
+}
+
+.container.dark {
+  background-color: #252525;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.dark-mode-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.dark-mode-btn:hover {
+  opacity: 0.8;
+}
+
+.dark-mode-btn.light {
+  background-color: #333;
+}
+
+.dark-mode-btn.dark {
+  background-color: #444;
+}
+
+.stats {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.stats.light {
+  background-color: #f9f9f9;
+}
+
+.stats.dark {
+  background-color: #2a2a2a;
+}
+
+.empty-message {
+  text-align: center;
+  padding: 40px;
+  color: #999;
+}
+
+.empty-message.dark {
+  color: #888;
+}

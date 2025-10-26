@@ -1,0 +1,157 @@
+.todo-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.todo-item.light {
+  border-color: #ddd;
+  background-color: white;
+  color: #333;
+}
+
+.todo-item.dark {
+  border-color: #444;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+.todo-item.overdue {
+  border-left: 4px solid #ff4444;
+}
+
+.todo-item.overdue.light {
+  background-color: #fff5f5;
+}
+
+.todo-item.overdue.dark {
+  background-color: #3a2020;
+}
+
+.todo-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-checkbox {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.todo-details {
+  flex: 1;
+}
+
+.todo-task {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.todo-task.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #666;
+}
+
+.priority-badge {
+  padding: 2px 8px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.priority-badge.high {
+  background-color: #ff4444;
+}
+
+.priority-badge.medium {
+  background-color: #ffaa00;
+}
+
+.priority-badge.low {
+  background-color: #4CAF50;
+}
+
+.due-date.overdue {
+  color: #ff4444;
+  font-weight: bold;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn,
+.delete-btn,
+.save-btn,
+.cancel-btn {
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: opacity 0.2s;
+}
+
+.edit-btn {
+  background-color: #2196F3;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+}
+
+.cancel-btn {
+  background-color: #757575;
+}
+
+.edit-btn:hover,
+.delete-btn:hover,
+.save-btn:hover,
+.cancel-btn:hover {
+  opacity: 0.8;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.edit-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.edit-select,
+.edit-date {
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 8px;
+}
